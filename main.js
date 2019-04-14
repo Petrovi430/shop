@@ -1,6 +1,6 @@
 function getData() {
 	var xml = new XMLHttpRequest();
-	xml.open('get','/data.json',true);
+	xml.open('get','./data.json',true);
 	xml.send();
 	xml.onreadystatechange = function() {
 		if(xml.readyState != 4) return;
