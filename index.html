@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Awesome shopping cart</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<div>
+			<div class="left">
+				<h2>Awesome shopping cart</h2>
+			</div>
+			<div class="right">
+				<button >Card items <span id="cart"></span></button>
+				<button ></button>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<section>
+			<div class="form">
+				<div class="search">
+					<input type="text">
+					<button></button>
+				</div>
+				<div class="select">
+					<p>Sort by:</p>
+					<select>
+						<option>Cost</option>
+						<option>Name</option>
+					</select>
+				</div>
+			</div>
+			<div class="content">
+				<div class="item" data-selected="false" data-number="0">
+					<div class="widget"></div>
+					<div class="image"></div>
+					<div class="item-content">
+						<div>
+							<p>Quatity <span class="count"></span></p>
+							<span class="add-count">
+								<span class="plus"></span>
+								<span class="minus"></span>
+							</span>
+						</div>
+						<div>
+							<p class="price"></p>
+							<button>Buy</button>
+						</div>	
+					</div>	
+				</div>
+			</div> 
+		</section>
+	</div>
+	<div class="shoping">
+		<div class="shoping-cart">
+			<div id="close-cart" class="close">
+				<div>
+					<p>close</p>
+				</div>
+			</div>
+			<div class="caption">
+				<div>
+					<p>Product</p>
+				</div>
+				<div>
+					<p>Quantity</p>
+				</div>
+				<div>
+					<p>Price</p>
+				</div>
+			</div>
+			<div class="items">
+				<div class="product">
+					<div>
+						<p class="count"></p>
+						<span class="widget"></span>
+					</div>
+					<div>
+						<p class="quatity"></p>
+					</div>
+					<div>
+						<p class="price"></p>
+					</div>
+					<div>
+						<p class="remove">Remove</p>
+					</div>
+				</div>
+			</div>
+			<div class="buy">
+				<div>
+					<button disabled>Buy</button>
+				</div>
+				<div>
+					<p>Summary: <span class="total"></span></p>
+				</div>	
+			</div>
+		</div>
+		<div class="buy-canceled">
+			<div class="close">
+				<div>
+					<p>close</p>
+				</div>
+			</div>
+			<div>
+				<p>Thank and you for purchase !</p>
+			</div>
+			<div>
+				<button>Close</button>
+			</div>
+		</div>
+	</div>
+	<footer id="copy">
+		<p>Copyright &copy; Petrovi4, 2016. Created by <a href="https://www.linkedin.com/in/oleksii-gryviuk-aa1301102/">Petrovi4</a></p>
+	</footer>
+	<script src="main.js"></script>
+</body>
+</html>

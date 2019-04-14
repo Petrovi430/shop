@@ -1,0 +1,16 @@
+{
+	"items":[
+		{"name":"widget 01", "image":"product1.jpg", "quatity":1, "price":1000542},
+		{"name":"widget 02", "image":"product2.png", "quatity":1, "price":1214542},
+		{"name":"widget 03", "image":"product3.png", "quatity":1, "price":885542},
+		{"name":"widget 04", "image":"product4.png", "quatity":1, "price":1842},
+		{"name":"widget 05", "image":"product5.png", "quatity":1, "price":2000454},
+		{"name":"widget 06", "image":"product1.jpg", "quatity":1, "price":100},
+		{"name":"widget 07", "image":"product1.jpg", "quatity":1, "price":1000222},
+		{"name":"widget 08", "image":"product1.jpg", "quatity":1, "price":1997542},
+		{"name":"widget 09", "image":"product1.jpg", "quatity":1, "price":546982},
+		{"name":"widget 10", "image":"product1.jpg", "quatity":1, "price":897002},
+		{"name":"widget 11", "image":"product1.jpg", "quatity":1, "price":1059814},
+		{"name":"widget 12", "image":"product1.jpg", "quatity":1, "price":1589320}
+	]
+}
